@@ -1,8 +1,14 @@
 <img width="827" alt="Screen Shot 2022-11-09 at 11 54 52 AM" src="https://user-images.githubusercontent.com/73726129/200892307-2afafa26-b8cb-459e-bbd4-b5b948da6f3f.png">
+
+<br />
+
+**Search "bucssatech/ai-ml-workshop" in Github**
+
+<br />
 <img width="1227" alt="Screen Shot 2022-11-09 at 11 58 02 AM" src="https://user-images.githubusercontent.com/73726129/200893047-6c2b3dbe-d9e1-4ee8-a288-6f85b194eed2.png">
 
 
-**About Cloning a Repository:**
+**Clone a Repository:**
 
 You can clone a repository from GitHub to make it easier to add or remove files, and push larger commits. When you clone a repository, you copy the repository from GitHub to your local computer.
 
@@ -17,7 +23,7 @@ You can clone a repository from GitHub to make it easier to add or remove files,
 
 3) Copy the URL for the repository.
 
-This workshop git clone HTTPS: https://github.com/budatasci/ai-ml-workshop.git
+    This workshop git clone HTTPS: https://github.com/budatasci/ai-ml-workshop.git
 
 4) Open Terminal.
 
@@ -27,15 +33,16 @@ This workshop git clone HTTPS: https://github.com/budatasci/ai-ml-workshop.git
 
 6) Type git clone, and then paste the URL you copied earlier.
 
-<img width="544" alt="Screen Shot 2022-11-09 at 9 43 05 AM" src="https://user-images.githubusercontent.com/64284184/200860289-7bf43373-dc97-4f2a-87f4-20de85b32798.png">
+        $ git clone https://github.com/budatasci/ai-ml-workshop.git
 
 
-7) Press Enter to create your local clone.
+7) If this is your first git commit, you will need to configure your git username and email address. You can do this by typing the following commands:
+    
+        git config --global user.name "Your Name"
+        git config --global user.email "
 
-<img width="663" alt="Screen Shot 2022-11-09 at 9 43 33 AM" src="https://user-images.githubusercontent.com/64284184/200860421-f1965915-fddf-4a64-a350-9cdaa5998bc5.png">
+    if you don't know your user name and email address, you can type the following command:
 
-
-
-
-
+        git config --global user.name
+        git config --global user.email
 
